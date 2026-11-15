@@ -17,7 +17,7 @@ pip install open-iris
 
 6. Run scripts inside /src directory
 - python -m src.create-templates
-- python -m src.matching
+- python -m src.example-results
 - python -m src.identify-by-image dataset/110/L/S1110L01.jpg --eye left --top 5
 - python src.identify-by-subject.py dataset/012/R/S1012R02.jpg --eye right --top 5
 
