@@ -25,3 +25,7 @@ pip install open-iris
 - cp .venv/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.cpython-311-x86_64-linux-gnu.so .venv/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.backup.so
 - patchelf --print-execstack .venv/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.cpython-311-x86_64-linux-gnu.so
 - patchelf --clear-execstack .venv/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.cpython-311-x86_64-linux-gnu.so
+
+References:
+- Open-iris library: https://github.com/worldcoin/open-iris
+- Dataset: https://www.kaggle.com/datasets/swoyam2609/casia-iris-interval
