@@ -1,19 +1,23 @@
+0. Prerequirments
+- sudo apt install software-properties-common
+- sudo add-apt-repository ppa:deadsnakes/ppa
+- sudo apt update
+
 1. Install python virtual environment
-sudo apt update
-sudo apt install python3.11-venv
+- sudo apt install python3.11 python3.11-venv python3.11-dev
 
 2. Go to project's director
-cd ~/iris-recognition
+- cd ~/iris-recognition
 
 3. Create virtual environment inside project's directory
-python3.11 -m venv .venv
+- python3.11 -m venv .venv
 
 4. Active the virtual environment
-source .venv/bin/activate
+- source .venv/bin/activate
 
 5. Inside environment, install Open Iris via pip
-python -m pip install --upgrade pip
-pip install open-iris
+- python -m pip install --upgrade pip
+- pip install open-iris
 
 6. Run scripts inside /src directory
 - python -m src.create-templates
